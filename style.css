@@ -53,3 +53,29 @@ h1 {
   margin-left: 10px;
   cursor: pointer;
 }
+
+#inputText, #outputText {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#outputText {
+  margin-bottom: 50px;
+}
+
+.copy-btn {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ddd;
+  color: #333;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
