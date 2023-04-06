@@ -4,3 +4,10 @@ function encrypt() {
   var ciphertext = CryptoJS.AES.encrypt(input, key).toString();
   document.getElementById("outputText").value = ciphertext;
 }
+
+function copyToClipboard() {
+  var output = document.getElementById("outputText");
+  output.select();
+  document.execCommand("copy");
+  alert("已复制到剪贴板");
+}
