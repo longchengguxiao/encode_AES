@@ -9,17 +9,13 @@
     <div class="container">
       <h1>xdu功能订阅的信息加密</h1>
       <div class="input-wrapper">
+        <p><strong>请在输入时用空格对不同信息进行分割，并且要改变顺序，例如 '123456789 abcdefghi'，发送加密后的密文给小助手。</strong></p>
         <input type="text" id="inputText" placeholder="请输入要加密的文本">
         <button onclick="encrypt()">加密</button>
       </div>
       <div class="output-wrapper">
         <input type="text" id="outputText" placeholder="加密后的文本" readonly>
         <button onclick="copyToClipboard()">复制</button>
-      </div>
-      <div class="input-wrapper">
-        <p><strong>请在输入时用空格对不同信息进行分割，并且要改变顺序，例如 '123456789 abcdefghi'，发送加密后的密文给小助手。</strong></p>
-        <input type="text" id="inputText" placeholder="请输入要加密的文本">
-        <button onclick="encrypt()">加密</button>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
